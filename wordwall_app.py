@@ -370,13 +370,12 @@ def clean_filename(title):
         cleaned[:80] or "reporte_wordwall"
     ) + ".xlsx"
 
-st.title("📚 Wordwall Results Manager 2.0")
+st.title("📚 Wordwall Results Manager")
 
 st.info(
-    "👋 ¡Bienvenido al Agrupador de Resultados de Wordwall! "
-    "Sube tus actividades, genera tu reporte por grupos "
-    "y descarga el archivo Excel. "
-    "¡Menos tiempo organizando datos y más tiempo para enseñar!"
+    "Organiza los resultados de tus alumnos de forma rápida y sencilla. "
+    "Ingresa el título que deseas que tenga tu reporte, sube tus archivos de Excel "
+    "y descarga el concentrado de calificaciones. "
 )
 
 st.caption(
